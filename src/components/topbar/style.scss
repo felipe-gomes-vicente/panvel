@@ -1,0 +1,49 @@
+.topBar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--dark-blue);
+    height: 60px;
+    width: 100%;
+
+    nav {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        max-width: 1200px;
+        justify-content: space-between;
+
+        .logo {
+            width: 170px;
+        }
+
+        .search {
+            width: 582px;
+            height: 40px;
+            border-radius: 4px;
+            padding: 0 1rem;
+        }
+
+        .login, .categories {
+            display: flex;
+            align-items: center;
+            color: white;
+            cursor: pointer;
+
+            .signin-icon {
+                color: var(--light-blue);
+            }
+
+            b {
+                padding: 0 .25rem;
+                font-size: .94rem;
+                text-transform: uppercase;
+            }
+        }
+
+        .cart-icon {
+            color: var(--light-blue);
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,137 @@
+.home{
+    .blog-content {
+        display: flex;
+        justify-content:center;
+
+        .container {
+            width: 1200px;
+            
+            .actions {
+                display: flex;
+                justify-content: flex-end;
+                margin: 1rem 0;
+
+                button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background: white;
+                    width: 200px;
+                    height: 35px;
+                    margin: 0 1rem 0 0;
+                    font-size: 12px;
+                    color: var(--dark-gray);
+                    cursor: pointer;
+
+                    span {
+                        margin: 0 .25rem 0 0;
+                        font-size: 16px;
+                    }
+
+                }
+            }
+
+            .page-intro {
+                margin: 4rem 0 0 0;
+                padding: 1rem;
+                
+                h1 {
+                    font-size: 18px;
+                    margin-bottom: .5rem;
+                    color: var(--rose);
+                }
+
+                p {
+                    color: var(--dark-gray);
+                    font-weight: 700;
+                    line-height: 1.3rem;
+                }
+            }
+
+            .boxes {
+                display: flex;
+                flex-wrap: wrap;
+                margin: 2rem 0;
+
+                .vertical-container {
+                    width: 100%;
+                    margin: 0 2rem 0 0;
+                    max-width: calc(640px - 3rem);
+
+                    .box {
+                        width: 100%;
+                        margin: 0 .5rem 2.5rem 0;
+                        padding: 1rem;
+    
+                        h1 {
+                            font-size: 18px;
+                            padding: .5rem 0;
+                            margin-bottom: .5rem;
+                            color: var(--rose);
+                        }
+                    }
+                }
+
+                .text-box {
+                    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+                    color: var(--dark-gray);
+                    min-height: 250px;
+                }
+
+                .img-box {
+                    margin-right: 0 !important;
+                    width: calc(50% - 2rem);
+
+                    h1 {
+                        font-size: 18px;
+                        background: var(--rose);
+                        font-weight: lighter;
+                        color: white;
+                        padding: .5rem;
+                    }
+
+                    .img {
+                        width: 100%;
+                        height: 500px;
+                        background: url(https://i2-prod.mirror.co.uk/incoming/article11973668.ece/ALTERNATES/s615/0_Baby-Bath-Time.jpg);
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                    }
+                }
+
+                .text-full-box {
+                    padding: 1rem;
+                    box-shadow: 2px 2px 2px rgba(0,0,0,.2);
+                    min-height: 80px;
+
+                    h1 {
+                        font-size: 18px;
+                        color: var(--rose);
+                        margin-bottom: .5rem;
+                    }
+
+                    p {
+                        color: var(--dark-gray);
+                        line-height: 1.3rem;
+                    }
+                }
+                
+              
+            }
+
+            .footer {
+                background: var(--rose);
+                padding: 1rem;
+                margin: 0 0 1rem 0;
+                text-align: center;
+                color: white;
+
+                a {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
