@@ -5,7 +5,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-estrutura">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-estrutura">Estrutura</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-criado">Criado Por</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
 </p>
@@ -31,7 +31,7 @@ O PanVel é o teste de React JS desenvolvido por mim, confesso que foi incrível
 - Views: Utilizada para armazenar o arquivo das páginas da aplicação
 
 Você pode visualizar o layout do projeto <br>
-![Alt text](https://github.com/felipe-gomes-vicente/) <br>
+![Alt text](https://github.com/felipe-gomes-vicente/panvel-preview/blob/main/panvel-preview.gif) <br>
 
 A fim de o testar, Executar no terminal:
 
